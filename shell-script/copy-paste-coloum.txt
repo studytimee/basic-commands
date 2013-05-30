@@ -1,0 +1,5 @@
+
+
+# This command coping first coloum from source folder and paste into destination folder.
+
+cat ./[src-folder]/[fielname] | cut -d ' ' -f 1 >./[dest-folder]/[filename]
